@@ -266,4 +266,37 @@ SSTImap supports multiple template engines and _eval()_-like injections.
 |--------------------------------------|-----|--------|-----------------|-----------|------------|
 
 Future plans
-------------
+------------More actions
+
+If you plan to contribute something big from this list, inform me to avoid working on the same thing as me or other contributors.
+
+- [ ] Add more payloads for different engines
+- [ ] Parse raw HTTP request from file
+- [ ] Variable dumping functionality
+- [ ] Blind/side-channel value extraction
+- [ ] Better documentation (or at least any documentation)
+- [ ] Short arguments as interactive commands?
+- [ ] JSON/plaintext API modes for scripting integrations?
+- [ ] Better integration for Python scripts
+- [ ] Multipart POST data type support
+- [ ] Modules for more customisable requests (second order, reset, non-HTTP)
+- [ ] Payload processing scripts
+- [ ] Better config functionality
+- [ ] Saving found vulnerabilities
+- [ ] Reports in HTML or other format
+- [ ] Multiline language evaluation?
+- [ ] Avoid platform dependency in payloads
+- [ ] Update NodeJS payloads as process.mainModule may be undefined
+- [x] Spider/crawler automation (by [fantesykikachu](https://github.com/fantesykikachu))
+- [x] Automatic languages and engines import
+- [x] More POST data types support
+- [x] Make template and base language evaluation functionality more uniform
+- [x] Argument to remove escape codes?
+
+[1]: https://artsploit.blogspot.co.uk/2016/08/pprce2.html
+[2]: https://opsecx.com/index.php/2016/07/03/server-side-template-injection-in-tornado/
+[3]: https://github.com/epinna/tplmap/issues/9
+[4]: http://disse.cting.org/2016/08/02/2016-08-02-sandbox-break-out-nunjucks-template-engine
+[5]: http://blog.portswigger.net/2015/08/server-side-template-injection.html
+[6]: http://flask.pocoo.org/
+[7]: http://jinja.pocoo.org/
